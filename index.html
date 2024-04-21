@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESULT SHEET</title>
+
+<style>
+    div,input,button{
+        box-shadow: 3px 2px 2px 3px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 5px;
+
+    }
+    
+    li{
+        list-style: none;
+    }
+    body{
+        margin-top: 10%;
+    
+    }
+    div{
+        height: 400px;
+        width: 500px;
+    }
+    img{
+        height: 100px;
+        width: 500px;
+    }
+</style>
+</head>
+<body>
+    <center>
+    <div>
+        <img src="https://uucms.karnataka.gov.in/Content/assets/images/uumcs-banner.png" alt="">
+    <h1>Exam Result</h1>
+    <input type="text" id="name" placeholder="Enter the Name">
+    <input type="number" id="reg" placeholder="Enter your Number">
+    <br>
+    <button onclick="cal()" id="select">Submit</button>
+    <p id="result"></p>
+    </div></center>
+
+<script src="exam.js"></script>
+</body>
+</html>
